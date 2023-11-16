@@ -1,0 +1,122 @@
+.createAccountWrapper {
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    flex-wrap: wrap;
+    @media (max-width: 768px) {
+      display: none;
+    }
+    .logoWrapper {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .rightSideHeadingWrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+      .rightsideHeadingButton {
+        background-color: #a259ff;
+        color: white;
+        padding: 20px 20px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        border: none;
+        border: 1px solid transparent;
+        &:hover {
+          border: 1px solid lightblue;
+        }
+      }
+    }
+  }
+  .rowSection {
+    margin: 0 15px;
+  }
+  .footer {
+    margin-top: 20px;
+    & > div {
+      margin: 30px 0;
+      // background-color: silver;
+    }
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3b3b3b;
+    .footerLogo {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .IconsSection {
+      display: flex;
+      align-items: center;
+    }
+    .bottomsection3 {
+      .bottomEmailField {
+        position: relative;
+        display: inline-block;
+        input {
+          position: relative;
+          padding: 9px 20px;
+          max-width: 300px;
+        }
+        button {
+          position: absolute;
+          right: -70px;
+          top: 0;
+          background-color: #a259ff;
+          color: white;
+          padding: 20px;
+          border-radius: 10px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          outline: none;
+          border: none;
+          border: 1px solid transparent;
+          &:hover {
+            border: 1px solid lightblue;
+          }
+        }
+      }
+    }
+  }
+}
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .rightPane {
+    h1 {
+      font-size: 50px;
+      font-weight: bold;
+    }
+    p {
+      font-weight: 500;
+      font-size: 20px;
+      max-width: 400px;
+    }
+    .inputFields {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      input {
+        padding: 5px 30px;
+        border-radius: 100%;
+      }
+      .createAccountButton {
+        padding: 20px 30px;
+        max-width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #a259ff;
+      }
+    }
+  }
+}
