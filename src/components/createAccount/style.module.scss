@@ -13,6 +13,7 @@
       gap: 0.5rem;
     }
     .rightSideHeadingWrapper {
+      font-family: "Space Mono";
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -33,15 +34,20 @@
         }
       }
     }
+    h2 {
+      @media (max-width: 965px) {
+        font-size: 20px;
+      }
+    }
   }
   .rowSection {
     margin: 0 15px;
   }
   .footer {
     margin-top: 20px;
+    padding: 30px;
     & > div {
       margin: 30px 0;
-      // background-color: silver;
     }
     display: flex;
     justify-content: space-evenly;
@@ -82,6 +88,11 @@
           &:hover {
             border: 1px solid lightblue;
           }
+          @media (max-width: 870px) {
+            position: unset;
+            width: 100%;
+            margin-top: 10px;
+          }
         }
       }
     }
@@ -109,13 +120,16 @@
         padding: 5px 30px;
         border-radius: 100%;
       }
-      .createAccountButton {
-        padding: 20px 30px;
+      .createAccountButtonWrapper {
         max-width: 350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #a259ff;
+        .createAccountButton {
+          padding: 20px 30px;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #a259ff;
+        }
       }
     }
   }

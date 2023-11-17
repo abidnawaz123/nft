@@ -4,6 +4,8 @@ import discordSvg from "../assets/icons/DiscordLogo.svg"
 import youtubeSvg from "../assets/icons/YoutubeLogo.svg"
 import twitterSvg from "../assets/icons/TwitterLogo.svg"
 import instagramSvg from "../assets/icons/InstagramLogo.svg"
+import Banner from "../assets/images/Banner.png"
+import UserAvatar from "../assets/Avatars/UserAvatar.svg"
 
 export const image = {
     createAccImage,
@@ -12,4 +14,6 @@ export const image = {
     youtubeSvg,
     twitterSvg,
     instagramSvg,
+    Banner,
+    UserAvatar
 }
