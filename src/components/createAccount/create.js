@@ -17,7 +17,7 @@ const Create = () => {
         <div className={styles.createAccountWrapper}>
             <div className={styles.heading}>
                 <div className={styles.logoWrapper}>
-                    <img src={image.logoSvg} />
+                    <img src={image.logoSvg} alt='logoSvg' />
                     <h2 className='spaceMono'>NFT Marketplace</h2>
                 </div>
                 <div className={styles.rightSideHeadingWrapper}>
@@ -30,7 +30,7 @@ const Create = () => {
             <div className={styles.rowSection}>
                 <Row gutter={30} className={styles.heroSection}>
                     <Col xs={24} lg={12}>
-                        <img src={image.createAccImage} style={{ maxWidth: '100%', maxHeight: '661px' }} />
+                        <img src={image.createAccImage} alt='createAccImage' style={{ maxWidth: '100%', maxHeight: '661px' }} />
                     </Col>
                     <Col xs={24} lg={12}>
                         <div className={styles.rightPane}>
@@ -59,7 +59,7 @@ const Create = () => {
                 <Col xs={24} md={8}>
                     <div>
                         <div className={styles.footerLogo}>
-                            <img src={image.logoSvg} />
+                            <img src={image.logoSvg} alt='logoSvg' />
                             <h2 className='spaceMono'>NFT Marketplace</h2>
                         </div>
                         <p>NFT marketplace UI created with Anima for Figma.</p>

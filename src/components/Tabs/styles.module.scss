@@ -1,0 +1,27 @@
+.tabsWrapper {
+  //   background-color: red;
+  :global(.ant-tabs-nav) {
+    &::before {
+      display: none;
+    }
+    :global(.ant-tabs-nav-wrap) {
+      :global(.ant-tabs-nav-list) {
+        :global(.ant-tabs-tab-active) {
+          :global(.ant-tabs-tab-btn) {
+            background-color: #2b2b2b;
+            color: white;
+          }
+        }
+        :global(.ant-tabs-tab) {
+          background-color: #2b2b2b;
+          color: #858584;
+        //   width: 100px;
+        //   text-align: center;
+        }
+        :global(.ant-tabs-ink-bar) {
+          background-color: #858584;
+        }
+      }
+    }
+  }
+}

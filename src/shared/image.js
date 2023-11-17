@@ -6,6 +6,7 @@ import twitterSvg from "../assets/icons/TwitterLogo.svg"
 import instagramSvg from "../assets/icons/InstagramLogo.svg"
 import Banner from "../assets/images/Banner.png"
 import UserAvatar from "../assets/Avatars/UserAvatar.svg"
+import GlobeSvg from "../assets/icons/Globe.svg"
 
 export const image = {
     createAccImage,
@@ -15,5 +16,6 @@ export const image = {
     twitterSvg,
     instagramSvg,
     Banner,
-    UserAvatar
+    UserAvatar,
+    GlobeSvg
 }

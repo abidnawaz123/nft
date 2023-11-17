@@ -7,8 +7,8 @@
       font-size: 40px;
     }
     .heading {
-        max-width: 400px;
-        margin-top: 2rem;
+      max-width: 400px;
+      margin-top: 2rem;
       .statistics {
         display: flex;
         justify-content: space-between;
@@ -22,9 +22,52 @@
       .statsLabel {
         display: flex;
         justify-content: space-between;
+      }
+    }
+    .UsersBio,
+    .Links {
+      margin: 2rem 0;
+      h2 {
+        color: #858584;
+        font-size: 22px;
+        margin-bottom: 0.5rem;
+      }
+    }
+    .Links {
+      .imagesSection {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+      }
+    }
+  }
+  .rightPane {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    .copyUserDetails {
+      background-color: #a259ff;
+      color: white;
+      border: none;
+      padding: 20px 30px;
 
-        // gap: 8rem;
-        
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .followBtn {
+      padding: 20px 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      border-radius: 10px;
+      background-color: transparent;
+      border: 2px solid #a259ff;
+      color: white;
+      .plus {
+        color: #a259ff;
       }
     }
   }
